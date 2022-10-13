@@ -1,0 +1,35 @@
+html {
+    box-sizing: content-box;
+}
+
+html * {
+    box-sizing: inherit;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 22px;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+header input {
+    outline: none;
+    border: solid 1px #757575;
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 15rem;
+}
+
+input:focus {
+    border: solid 1px 	#0066FF;
+}
